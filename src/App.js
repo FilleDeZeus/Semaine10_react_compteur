@@ -1,11 +1,14 @@
 import './App.css';
+import { Bouton } from './compenents/bouton/bouton';
 
-function App() {
+import React from 'react'
+
+export const App = () => {
   return (
-    <div className="App">
-      
+    <div>
+      <Bouton/>
     </div>
-  );
+  )
 }
 
-export default App;
+
